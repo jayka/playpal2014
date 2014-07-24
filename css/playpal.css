@@ -1,0 +1,138 @@
+/* for fixed top*/
+header {
+    height: 140px;
+}
+.logo {
+    font-family: Verdana ! important; 
+    font-size: 22pt ! important; 
+    font-style: italic; 
+    font-weight: bold;
+    color: #253b80 ! important;
+}
+
+.logo > .lightBlue {
+    color: #179bd7;
+}
+.bg-lightBlue {
+    background-color: #179bd7;
+}
+.no-margin {
+    margin: 0px ! important;
+}
+
+#pp-menu {
+    display: table;
+/*    height: 60px;*/
+    width: 100%;
+    margin: 0;
+}
+@media only screen and (max-width: 800px) {
+/*  for fixed top */
+  header {
+    height: 85px;
+  }
+  #pp-menu {
+    display: none !important;
+  }
+}
+
+#pp-menu li {
+    display: table-cell;
+    height: 50px;
+    width: 16.666666667%;  /* (100 / numItems)% */
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.pp-menu-item a:before {
+    content: "";
+    background: url(../imgs/Contests.png) no-repeat 0 0 / 87%;
+    width: 45px;
+    height: 45px;
+    margin-bottom: -15px;
+    display: inline-block;
+    margin-left: -30px;
+}
+li.pp-menu-item > a, .element-menu > li.pp-menu-item > a, .pp-menu-item a:hover{
+
+    display:block;
+    width: 100%;
+    height: 108%;
+    margin: 0;
+    right: 0;
+    font-size: 1.6em;
+    font-weight: 400;
+    line-height: 50px;
+    position:relative;
+    color: #ffffff ! important;
+}
+.pp-menu-1 {
+    background-color: #0a6990;
+}
+.pp-menu-1:hover {
+    background-color: #094b67;
+}
+.pp-menu-1 a:before {
+    background: url(../imgs/Contests.png) no-repeat 0 0 / 87%;
+}
+.pp-menu-2{
+    background-color: #f2206d;
+}
+.pp-menu-2:hover{
+    background-color: #c31b58;
+}
+
+.pp-menu-2 a:before {
+    background: url(../imgs/Schedule.png) no-repeat 0 0  / 87%;    
+}
+.pp-menu-3{
+    background-color: #f48820;
+}
+.pp-menu-3:hover{
+    background-color: #d17822;
+}
+.pp-menu-3 a:before {
+    background: url(../imgs/LiveStream.png) no-repeat 0 0 / 87%;
+}
+.pp-menu-4{
+    background-color: #f7c132;
+}
+.pp-menu-4:hover{
+    background-color: #c79c29;
+}
+.pp-menu-4 a:before {
+    background: url(../imgs/Stats.png) no-repeat 0 0 / 87%;
+}
+.pp-menu-5 {
+    background-color: #a71c92;
+}
+.pp-menu-5:hover {
+    background-color: #7b166b;
+}
+.pp-menu-5 a:before {
+    background: url(../imgs/photos.png) no-repeat 0 0 / 87%;
+}
+.pp-menu-6{
+    background-color: #d177c3;   
+}
+.pp-menu-6:hover{
+    background-color: #ac64a0;   
+}
+.pp-menu-6 a:before{
+    background: url(../imgs/Prizes.png) no-repeat 0 0 / 87%;
+}
+
+/** Flash news */
+.flash-news-cnt {
+    background-color: #0a6990;
+    height: 40px;
+    vertical-align: middle;
+    list-style: none outside none;
+    margin: 0 ! important;
+    padding: 0 ! important;
+}
+li.flash-news {
+    color: #ffffff;
+    line-height: 40px ! important;
+    text-align: center;
+}
